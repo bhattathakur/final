@@ -1,0 +1,40 @@
+//bkg000
+Run started....................:  Mon Sep 17 10:56:44 2018
+  in time zone.................:  UTC
+  in time since epoch..........:  1537181804 s
+Run  time......................:       86408.22 s
+Live time......................:       86400.00 s
+Number of data channels........:       16384
+
+
+//bkg002
+Run started....................:  Tue Sep 18 10:56:48 2018
+  in time zone.................:  UTC
+  in time since epoch..........:  1537268208 s
+Run  time......................:       86408.06 s
+Live time......................:       86400.00 s
+Number of data channels........:       16384
+
+//
+Run started....................:  Wed Sep 19 10:56:51 2018
+  in time zone.................:  UTC
+  in time since epoch..........:  1537354611 s
+Run  time......................:       86407.96 s
+Live time......................:       86400.00 s
+Number of data channels........:       16384
+
+//Bkg3
+Run started....................:  Thu Sep 20 15:52:36 2018
+  in time zone.................:  UTC
+  in time since epoch..........:  1537458756 s
+Run  time......................:       86407.84 s
+Live time......................:       86400.00 s
+Number of data channels........:       16384
+
+//Bkg4
+Run started....................:  Fri Sep 21 15:52:39 2018
+  in time zone.................:  UTC
+  in time since epoch..........:  1537545159 s
+Run  time......................:       86407.76 s
+Live time......................:       86400.00 s
+Number of data channels........:       16384
