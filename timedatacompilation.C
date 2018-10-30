@@ -11,7 +11,7 @@
   Int_t date,time,nanosec=0;
   Double_t runtime,resolution,error_resolution;
   TTimeStamp timestamp;
-  int count=0; //To check for the storing of data multiple times
+  //To check for the storing of data multiple times
   //Base time to subtract from
   TTimeStamp basetime(20180901,000000,0,kTRUE,-6*3600);
   cout<<"basetime= "<<basetime.Print();
@@ -67,15 +67,11 @@
 	    if(timereso.is_open())
 		{
 		  cout<<"successfully opened the file "<<outfile<<endl;
-		  if(count<5)
-		    {
-			cout<<setw(10)<<newtime-basetimesec<<setw(15)<<resolution<<setw(10)<<runtime/2<<setw(10)<<error_resolution<<endl; //newtime-basetime
-			timereso<<setw(10)<<newtime-basetimesec<<setw(15)<<resolution<<setw(10)<<runtime/2<<setw(10)<<error_resolution<<endl;
-			count++;
+		  cout<<setw(10)<<newtime-basetimesec<<setw(15)<<2.35*resolution<<setw(10)<<runtime/2<<setw(10)<<2.35*error_resolution<<endl; //newtime-basetime
+		  timereso<<setw(10)<<newtime-basetimesec<<setw(15)<<2.35*resolution<<setw(10)<<runtime/2<<setw(10)<<2.35*error_resolution<<endl; //FWHM=2.35*sigma
+		  		
+		}     
 		
-		    }
-		  else cout<<"Already stored in the file"<<endl;
-		}
 	    else
 		{
 		  cout<<"Error opening the file "<<outfile<<endl;
